@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: #8495cd;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+  background-color: #ffffff;
+  max-height: 70vh;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.top {
+ display: flex;
+ justify-content: center;
+ margin-top: 1rem;
+}
+
+input {
+  font-family: "Baloo 2", cursive;
+  margin-left: 2rem;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(172, 165, 165);
+  user-select: auto;
+  resize: none;
+  text-align: center;
+}
+
+#btn-cross {
+  margin: 0.5rem 1.2rem 0 1rem;
+  display: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-right: 20px;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #8495cd;
+  color: #ffffff;
+  font-family: "Baloo 2", cursive;
+}
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: -10px;
+}
+
+.wrap-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.wrap-img img {
+  height: 90%;
+  width: 40%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem 1rem 0;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+p {
+  margin-left: 7px;
+  font-size: 1rem;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: max-content;
+}
+
+h5 {
+  color: rgb(218, 19, 19);
+  margin-left: 4rem;
+  margin-top: 0;
+}
+
+h1 {
+  color: rgb(79, 74, 74);
+  font-size: 14px;
+  margin-left: 4rem;
+  margin-top: 0;
+}
